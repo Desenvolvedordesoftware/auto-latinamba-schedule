@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
-import { Calendar, ChevronRight, Clock, Shield, ThumbsUp, Tool, Wrench } from "lucide-react";
+import { Calendar, ChevronRight, Clock, Shield, ThumbsUp, Wrench, Settings } from "lucide-react";
 
 const Services = () => {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ const Services = () => {
         "Verificação do nível dos fluidos",
         "Inspeção visual de itens de segurança"
       ],
-      icon: Tool
+      icon: Wrench
     },
     {
       title: "Revisão Completa",
@@ -31,7 +31,7 @@ const Services = () => {
         "Diagnóstico eletrônico",
         "Verificação do sistema de arrefecimento"
       ],
-      icon: Wrench
+      icon: Settings
     },
     {
       title: "Reparo de Motor",
@@ -43,7 +43,7 @@ const Services = () => {
         "Substituição de peças danificadas",
         "Retífica de motores"
       ],
-      icon: Tool
+      icon: Wrench
     },
     {
       title: "Manutenção Preventiva",
@@ -67,7 +67,7 @@ const Services = () => {
         "Reparos no sistema de iluminação",
         "Diagnóstico de falhas elétricas"
       ],
-      icon: Tool
+      icon: Wrench
     },
     {
       title: "Alinhamento e Balanceamento",
@@ -79,7 +79,7 @@ const Services = () => {
         "Ajuste da pressão dos pneus",
         "Verificação do desgaste dos pneus"
       ],
-      icon: Wrench
+      icon: Settings
     }
   ];
   

@@ -2,7 +2,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import { ArrowRight, Oil, Settings, Wrench, RotateCw, Gauge, Battery } from "lucide-react";
+import { ArrowRight, Droplet, Settings, Wrench, RotateCw, Gauge, Battery } from "lucide-react";
 
 export function ServicesSection() {
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ export function ServicesSection() {
     {
       title: "Troca de Óleo",
       description: "Troca de óleo e filtros com produtos de alta qualidade",
-      icon: Oil
+      icon: Droplet
     },
     {
       title: "Revisão Completa",

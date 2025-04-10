@@ -1,4 +1,3 @@
-
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar, Home, Menu, Wrench, X } from "lucide-react";
@@ -40,7 +39,7 @@ export function Navbar() {
           </Button>
           
           <Button 
-            variant="primary" 
+            variant="default" 
             className="flex items-center gap-2 bg-primary text-white"
             onClick={() => navigate("/agendar")}
           >
