@@ -27,11 +27,11 @@ export function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center gap-2">
                 <MapPin size={18} />
-                <span>Salvador, Bahia, Brasil</span>
+                <span>Marabá-PA | Nova Maraba | FL 33 Qd 28 Lt 42 | transamazônica</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={18} />
-                <span>(71) 99999-9999</span>
+                <span>(94) 99163-2996</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={18} />

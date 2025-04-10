@@ -1,4 +1,3 @@
-
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
@@ -151,7 +150,7 @@ const Services = () => {
                 
                 <div className="flex flex-col items-center">
                   <div className="bg-primary/10 p-4 rounded-full mb-4">
-                    <Tool className="h-8 w-8 text-primary" />
+                    <Wrench className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="font-semibold mb-2">Profissionalismo</h3>
                   <p className="text-gray-600 text-center">

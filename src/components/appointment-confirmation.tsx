@@ -102,7 +102,7 @@ export function AppointmentConfirmation() {
           <div className="bg-gray-50 p-4 rounded-lg border border-gray-200 mt-6">
             <p className="text-sm text-gray-600">
               Você receberá um e-mail de confirmação com os detalhes do seu agendamento. 
-              Em caso de dúvidas, entre em contato conosco pelo telefone (71) 99999-9999.
+              Em caso de dúvidas, entre em contato conosco pelo telefone (94) 99163-2996.
             </p>
           </div>
           

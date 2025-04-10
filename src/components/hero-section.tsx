@@ -14,7 +14,7 @@ export function HeroSection() {
           Auto Latina MBA
         </h1>
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-          Serviços automotivos de qualidade e confiança em Salvador
+          Serviços automotivos de qualidade e confiança em Marabá-Pa
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
